@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+                <meta name="Description" content="Weber is a template for rapid development of web services and web applications. It builds on industry-standard technologies like Flask, SQLAlchemy, Redis, Celery, Ember and more to get you ready for delivery as quickly as possible">
+		<title>Weber - the Python Webapp Boilerplate Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+                <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+
+<div class="navbar navbar-fixed-top navbar-bold" data-spy="affix" data-offset-top="1000">
+  <div class="container">
+    <div class="navbar-left" id="navbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#flavors">Flavors</a></li>
+      </ul>
+    </div>
+    <div class="navbar-right">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://github.com/vmalloc/weber"><i class="fa fa-book"></i> Documentation</a></li>
+        <li><a href="http://weber.readthedocs.org"><i class="fa fa-github"></i> Source</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="header vert" id="home">
+  <div class="container">
+
+    <h1>Weber</h1>
+    <p class="lead">All the Webapp Boilerplate You'll Need</p>
+    <div>&nbsp;</div>
+  </div>
+</div>
+
+<div id="about" class="blurb">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>Takes Care of the Dirty Work</h1>
+        <p class="lead">
+          Weber provides sane defaults, utilities and methodologies to get you shipping as quickly as possible.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="featurette" id="features">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="featurette-item">
+          <i class="fa fa-cloud-upload"></i>
+          <h4>Ready to Deploy</h4>
+          <p>Weber supports out-of-the-box deployment to servers, as well as Vagrant virtual machines. All deployment is done using Ansible, giving you powerful control over the entire process</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="featurette-item">
+          <i class="fa fa-chevron-circle-right"></i>
+          <h4>Sane Workflows and Defaults</h4>
+          <p>We spent hours tweaking our deployment, testing and development workflows so that you won't have to.</p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="featurette-item">
+          <i class="fa fa-building-o"></i>
+          <h4>Robust</h4>
+          <p>Weber is built on industry-standard, proven tools and schemes -- Flask, SQLAlchemy, Redis, Celery, Ember and more</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="about" class="blurb">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1><i class="fa fa-hand-o-up"></i> Choose your Weber</h1>
+        <p>
+          There are three flavors of Weber, in three different levels of complexity. You get to choose which one fits your needs
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4 text-center">
+        <div class="featurette-item">
+          <i class="fa fa-motorcycle"></i>
+          <h4>Minimal</h4>
+          <p>Supports the essentials: deployment, debugging, configuration, default error pages, etc. Does not contain database interfacing code.</p>
+          <br/>
+          <p><a class="btn btn-default" href="https://github.com/vmalloc/weber-minimal"><i class="fa fa-github"></i>Source Code</a></p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="featurette-item">
+          <i class="fa fa-bus"></i>
+          <h4>Backend</h4>
+          <p>Like the minimal version, but also contains ORM with SQLAlchemy, migrations with Alembic, background tasks with Celery, Caching with Redis and also user/login management with Flask-Security.</p>
+          <p><a class="btn btn-default" href="https://github.com/vmalloc/weber-backend"><i class="fa fa-github"></i>Source Code</a></p>
+        </div>
+      </div>
+      <div class="col-md-4 text-center">
+        <div class="featurette-item">
+          <i class="fa fa-fighter-jet"></i>
+          <h4>Frontend</h4>
+          <p>Like the backend version, but also includes frontend support with Ember and EmberCLI.</p><br/><br/>
+          <p><a class="btn btn-default" href="https://github.com/vmalloc/weber-frontend"><i class="fa fa-github"></i>Source Code</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <hr>
+        <p>&copy; 2015 Rotem Yaari</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<ul class="nav pull-right scroll-down">
+  <li><a href="#" title="Scroll down"><i class="fa fa-chevron-down"></i></a></li>
+</ul>
+<ul class="nav pull-right scroll-top">
+  <li><a href="#" title="Scroll to top"><i class="fa fa-chevron-up"></i></a></li>
+</ul>
+
+	<!-- script references -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62544293-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+        </body>
+</html>
