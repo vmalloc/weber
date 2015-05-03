@@ -39,7 +39,7 @@ img.grayscale {
 }
 
 .scroll-top {
-  background-color:#44ff44;
+  background-color:#8A8A8A;
 }
 
 .header .btn-lg {
@@ -60,17 +60,16 @@ img.grayscale {
 }
 
 .navbar-bold.affix {
-  //background-color:#33ee67;
-    background-color:green;
+  background-color:#595959;
 }
 
 .navbar-bold {
-  background-color:green;
+  background-color:#333;
   font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 
 .navbar-bold li a:hover, .navbar-bold li.active {
-  background-color:#22dd56;
+  background-color:#777;
 }
 
 .vert {
@@ -96,7 +95,7 @@ img.grayscale {
 
 .header {
   height: 80%;
-  background: #11cc45 url('../img/scaffold.jpg') no-repeat center center fixed;
+  background: #8F8F8F url('../img/scaffold.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
